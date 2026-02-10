@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pwd  = "";
+$pwd  = "Acc123456#";
 $DB   = "4098db";
 
 $conn = mysqli_connect($host, $user, $pwd, $DB);
@@ -12,3 +12,4 @@ if (!$conn) {
 
 mysqli_set_charset($conn, "utf8mb4");
 ?>
+
